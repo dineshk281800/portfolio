@@ -1,0 +1,107 @@
+<div class="details-container">
+            <!-- <div class="topic-container">
+              <img src="images/skills.png" alt="Experience icon" class="icon" />
+              <h3 class="skill-heading">Skills</h3>
+            </div> -->
+            <div class="skills-container">
+              <div class="frontend">
+                <h2 class="skill-heading">Frontend</h2>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">HTML</h3>
+                </article>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">CSS</h3>
+                </article>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">JavaScript</h3>
+                </article>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">React</h3>
+                </article>
+              </div>
+              <!-- <div class="frontend">
+                <ul>
+                  <li>
+                    <h3 class="skill-heading">Frontend</h3>
+                  </li>
+                  <ul>
+                    <li class="skills">HTML</li>
+                    <li class="skills">CSS</li>
+                    <li class="skills">JavaScript</li>
+                    <li class="skills">React</li>
+                  </ul>
+                </ul>
+              </div> -->
+              <!-- <div class="backend">
+                <ul>
+                  <li>
+                    <h3>Backend</h3>
+                  </li>
+                  <li>
+                    <ul>
+                      <li class="skills">
+                        HTML
+                      </li>
+                      <li class="skills">CSS</li>
+                      <li class="skills">JavaScript</li>
+                      <li class="skills">React</li>
+                    </ul>
+                  </li>
+                  <li></li>
+                </ul>
+              </div> -->
+
+              <div class="backend">
+                <h2 class="skill-heading">Backend</h2>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">Node JS</h3>
+                </article>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">Express JS</h3>
+                </article>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">MongoDB</h3>
+                </article>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">Postman</h3>
+                </article>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">Python</h3>
+                </article>
+                </article>
+                <article class="skills">
+                  <img src="images/checkmark.png" alt="Experience icon" class="icon" />
+                  <h3 class="skill">Basic Java</h3>
+                </article>
+              </div>
+            </div>
+            <!-- <p>2+ years <br />Frontend Development</p> -->
+          </div>
+
+<!-- --------experience-------- -->
+
+          <div class="details-container">
+            <div class="topic-container">
+
+              <!-- <img src="images/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3> -->
+            </div>
+            <p><span class="detail-heading">Recodem Private Limited, Chennai</span><br>Aug 2023 - Jan 2024 (5 months -
+              Internship) </p>
+            <strong class="detail-heading">Job Position here</strong>
+            <ul class="ul">
+              <li>As an intern at Recodem, have worked to build and develop an
+                ecommerce website in both front-end and back-end</li>
+              <li>Have worked on API’s to connect with servers</li>
+              <li>Have worked with Non-Relational Database(MongoDB)</li>
+            </ul>
+          </div>

@@ -638,3 +638,37 @@ nav .fa-solid {
     font-size: 14px;
   }
 }
+
+/* new */
+@media only screen and (max-width:400px) {
+
+  .header-text {
+    margin-left: 2rem;
+    margin-top: 50%;
+  }
+
+  .btn.btn2 {
+    width: 12rem;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  #about,
+  #project {
+    margin-left: 4rem;
+  }
+
+  .arrow {
+    right: -2.5rem;
+    bottom: 1.5rem;
+  }
+
+  .arrow-1 {
+    right: -2.5rem;
+  }
+
+  #contact {
+    margin-left: 5rem;
+  }
+}

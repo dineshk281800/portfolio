@@ -583,10 +583,18 @@ nav .fa-solid {
 
   .section__pic-container {
     text-align: center;
+    /* new */
+    height: 300px;
+    width: 300px;
   }
 
   .about-details-container {
     font-size: 14px;
+  }
+
+  /* new */
+  .about-pic {
+    width: 300px;
   }
 
   .about-title {

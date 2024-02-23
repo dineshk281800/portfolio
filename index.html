@@ -165,7 +165,7 @@
               <ul>
                 <li>ShopIt is e-commerece application. It is very useful for seller and customer.</li>
                 <li>Customer can be easy to buy the Products and delivery to home.</li>
-                <li>Using technologies like HTML, CSS, JavaScript.</li>
+                <li>Using technologies like HTML, CSS, JavaScript, React, Node.js, Express, MongoDB.</li>
               </ul>
               <a href="https://kind-gold-rooster-wig.cyclic.app/" target="_blank">
                 <span class="material-symbols-outlined">
@@ -299,11 +299,12 @@
       </div>
       <div class="right">
         <form name="submit-to-google-sheet">
-          <input type="text" name="Name" placeholder="Your Name" required="" fdprocessedid="5r0m3f">
-          <input type="email" placeholder="Your Email" name="Email" required="" fdprocessedid="622xtm">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" name="Email" required>
           <textarea name="Message" rows="5" placeholder="You Msg"></textarea>
-          <button type="submit" class="btn btn2" fdprocessedid="y25gf">Submit</button>
+          <button type="submit" class="btn btn2">Submit</button>
         </form>
+        <span id="msg">Successfully Submitted</span>
       </div>
     </div>
     <a href="#header">
@@ -343,6 +344,25 @@
     function closemenu() {
       sidemenu.style.right = "-400px";
     }
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzK2UX05Xrtl6cwk7V58SHi8T5y7F9JJsjg5_l-P19hBhpQP5qsjwz9vOiCSc1KZmcM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent Successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
   </script>
 </body>
 

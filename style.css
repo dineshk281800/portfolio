@@ -671,6 +671,16 @@ nav .fa-solid {
   #contact {
     margin-left: 5rem;
   }
+
+  .Email i {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+
+  .left p i {
+    font-size: 18px;
+    margin-right: 13px;
+  }
 }
 
 #msg {
